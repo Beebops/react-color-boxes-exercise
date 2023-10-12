@@ -2,8 +2,6 @@ import { useState } from 'react'
 import { v4 as uuidv4 } from 'uuid'
 
 const NewBoxForm = ({ addBox }) => {
-  // renders a form that takes as input color, height, and width and renders a Box with those features when submitted
-  // inputs are cleared when submit button is clicked
   const INITIAL_STATE = {
     width: '',
     height: '',
